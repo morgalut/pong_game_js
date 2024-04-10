@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="pongCanvas" width="800" height="400"></canvas>
+  <div class="buttons">
+    <button onclick="setDifficulty('easy')">Level 1 (Easy)</button>
+    <button onclick="setDifficulty('hard')">Level 2 (Hard)</button>
+    <button onclick="startGame()">START</button>
+    <button onclick="pauseGame()">PAUSE</button>
+    <button onclick="resetPoints()">Reset Points</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
